@@ -12,6 +12,9 @@ body {
     background-color: #fff;
     margin: 0;
 }
+
+main {
+    max-width: 800px;
 nav {
     background-color: steelblue;
     padding: 0%;
@@ -32,7 +35,6 @@ main img {
     border: 1px solid #ccc;
     padding: 2px;
     box-shadow: 0 0 30px gray
-    max-width: 100%;
 }
 p {
     padding: 0;
