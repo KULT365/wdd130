@@ -35,13 +35,21 @@ h1, h2{
     text-align: center;
 } 
 
+nav a {
+    display: block;
+}
+
 nav, p, section, article {
     padding: 16px;
     margin: 8px;
 }
 
+
 .socialmedia a {
     text-decoration: none;
+    background-color: var(--cor-destaque1);
+    padding: 8px;
+    border-radius: 10px;
 }
 
 .redes-sociais{
