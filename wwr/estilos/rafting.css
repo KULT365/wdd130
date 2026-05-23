@@ -1,5 +1,5 @@
 :root {
-    --cor-primaria: #055a05;
+    --cor-primaria: rgb(143, 142, 161);
     --cor-secundaria: #f4a261;
     --cor-destaque1: #264653;
     --cor-destaque2: #e9c46a;
@@ -64,25 +64,32 @@ nav, p, section, article {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.9;
     background-color: var(--cor-destaque1);
-    color: #fff;
+    color: #ffffff;
 }
 
 .hero article {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
-    width: 40%;
+    top: 380px;
+    left: 40px;
+    width: 90%;
+
+    background-color: var(--cor-secundaria);
+    padding: 16px;
+    opacity: 0.9;
+    color: #683838;
 }
 
-article {
-    background-color: var(--cor-secundaria);
-    color: #fff;
+.hero article img {
+    float: right;
+    width: 125px;
+    margin-left: 16px;
 }
 
 .hero article img {
     width: 125px;
     float: right;
+    
 }
 
