@@ -15,6 +15,7 @@
 
 header {
     background-color: var(--cor-primaria);
+    font-family: var(--fonte-body);
     color: var(--cor-destaque2);
 }
 
