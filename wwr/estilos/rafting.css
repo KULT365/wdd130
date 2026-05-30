@@ -2,7 +2,7 @@
     --cor-primaria: rgb(201, 200, 207);
     --cor-secundaria: #f4a261;
     --cor-destaque1: #264653;
-    --cor-destaque2: #e9c46a;
+    --cor-destaque2:  #683838;
     --fonte-titulo: "Times New Roman", Georgia, serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
@@ -90,7 +90,7 @@ nav, p, section, article {
     background-color: var(--cor-secundaria);
     padding: 16px;
     opacity: 0.9;
-    color: #683838;
+    color:var(--cor-destaque2);
 }
 
 .hero article img {
