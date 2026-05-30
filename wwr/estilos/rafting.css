@@ -28,7 +28,13 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+    text-align: center;
+}
+
+h2 {
     font-family: var(--fonte-titulo);
     color: var(--cor-destaque1);
     text-align: center;
