@@ -65,6 +65,11 @@ nav, p, section, article {
     border-radius: 10px;
 }
 
+.socialmedia img {
+    width: 32px;
+    height: auto;
+}
+
 .redes-sociais{
     text-decoration: none;
 }
@@ -107,6 +112,5 @@ nav, p, section, article {
     width: 125px;
     margin-left: 16px;
 }
-
 
 
