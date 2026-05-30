@@ -14,8 +14,17 @@
 }
 
 header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
     background-color: var(--cor-primaria);
     color: #000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 body {
