@@ -15,8 +15,7 @@
 
 header {
     background-color: var(--cor-primaria);
-    font-family: var(--fonte-body);
-    color: var(--cor-destaque2);
+    color: #000;
 }
 
 body {
@@ -29,11 +28,11 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2{
+h1, h2 {
     font-family: var(--fonte-titulo);
-    color: var(--cor-primaria);
+    color: var(--cor-destaque1);
     text-align: center;
-} 
+}
 
 nav a {
     display: block;
@@ -43,7 +42,6 @@ nav, p, section, article {
     padding: 16px;
     margin: 8px;
 }
-
 
 .socialmedia a {
     text-decoration: none;
