@@ -90,7 +90,7 @@ nav, p, section, article {
     background-color: var(--cor-secundaria);
     padding: 16px;
     opacity: 0.9;
-    color:var(--cor-destaque2);
+    color: var(--cor-destaque2);
 }
 
 .hero article img {
