@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 0 auto;
+}
+
+header h1{
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+main{
+    margin: 0 auto;
+    max width: 400px;
+    background-color: gray;
+    padding: 10px 30px 30px 30px;
+}
+
+form{
+    display: grid;
+    gap: 5px;
+}
+
+label{
+    margin-top: 20px;
+
+}
+
+input, textarea, select, button{
+    padding: 5px 11px;
+}
+
+button{
+    margin-top: 15px;
+    background-color: blue;
+    color: #fff;
+}
