@@ -58,14 +58,14 @@ nav, p, section, article {
     margin: 8px;
 }
 
-.socialmedia a {
+.redes-sociais a {
     text-decoration: none;
     background-color: var(--cor-destaque1);
     padding: 8px;
     border-radius: 10px;
 }
 
-.socialmedia img {
+.redes-sociais img {
     width: 32px;
     height: auto;
 }
@@ -121,6 +121,10 @@ nav, p, section, article {
     background-color: #f5f5f5;
     border-radius: 10px;
     padding: 20px;
+}
+
+.contact-info h1 {
+    color: var(--cor-destaque1);
 }
 
 .contact-info p {
