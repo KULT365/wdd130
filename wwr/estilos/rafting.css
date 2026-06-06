@@ -139,17 +139,14 @@ nav, p, section, article {
 }
 
 .funcionarios {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-}
-
-.funcionarios h2 {
-    width: 100%;
+    text-align: center;
 }
 
 .funcionarios figure {
-    max-width: 220px;
+    display: inline-block;
+    width: 220px;
+    margin: 15px;
+    vertical-align: top;
 }
 
 .funcionarios img {
