@@ -18,7 +18,6 @@
 
 <body>
 
-    ```
     <header>
         <img src="imagens/raftingcompas.png" alt="Logotipo da Rafting Compas">
 
@@ -86,10 +85,8 @@
 
                 <h3>Motivo da Mensagem</h3>
 
-                <label>
-                    <input type="radio" id="consulta" name="motivo">
-                    Consulta Geral
-                </label>
+                <input type="radio" id="consulta" name="motivo">
+                <label for="consulta">Consulta Geral</label>
 
                 <label>
                     <input type="radio" id="reserva" name="motivo">
@@ -100,6 +97,9 @@
                     <input type="radio" id="sugestao" name="motivo">
                     Sugestão de Site
                 </label>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="5"></textarea>
 
                 <label>
                     <input type="checkbox" id="newsletter" name="newsletter">
@@ -135,7 +135,6 @@
         </nav>
 
     </footer>
-    ```
 
 </body>
 
